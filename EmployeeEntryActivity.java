@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class EmployeeEntryActivity extends AppCompatActivity
 {
-    private EditText fnameET, lnameET, height_feetET, height_inchesET, weightET, ageET;
+    public EditText fnameET, lnameET, height_feetET, height_inchesET, weightET, ageET;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

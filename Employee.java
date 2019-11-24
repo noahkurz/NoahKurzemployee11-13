@@ -2,12 +2,12 @@ package com.example.csc250_fall2019_employeemanager;
 
 public class Employee
 {
-    private String fname;
-    private String lname;
-    private int height_feet;
-    private int height_inches;
-    private int age;
-    private double weight;
+    public String fname;
+    public String lname;
+    public int height_feet;
+    public int height_inches;
+    public int age;
+    public double weight;
 
     public Employee(String fname, String lname, int height_feet, int height_inches, int age, double weight)
     {
